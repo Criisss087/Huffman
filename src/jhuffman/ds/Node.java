@@ -4,10 +4,10 @@ public class Node
 {
 	private int c;
 	private long n;
-	
+
 	private Node izq=null;
 	private Node der=null;
-	
+
 	public Node(){}
 
 	public Node(int c,long n,Node izq,Node der)
@@ -17,7 +17,7 @@ public class Node
 		this.izq=izq;
 		this.der=der;
 	}
-	
+
 	public int getC()
 	{
 		return c;
@@ -51,7 +51,7 @@ public class Node
 	{
 		this.der = der;
 	}
-	
+
 	@Override
 	public String toString()
 	{
@@ -59,9 +59,9 @@ public class Node
 		ret+="("+n+")";
 		return ret;
 	}
-	
-	
 
-	
-	
+
+
+
+
 }
