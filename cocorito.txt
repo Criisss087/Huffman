@@ -1,1 +1,4 @@
-COMO COME COCORITO COME COMO COSMONAUTA
+Paso 1: Determinar la cantiadad de veces que aparece cada caracter.
+El primer paso sera contar cuantas veces aparece cada caracter (o byte) dentro del archivo; y para esto debemos tener en cuenta las siguientes consideraciones.
+Un byte consiste en un conjunto de 8 bits que pueden combinarse de 28=256 maneras diferentes. Esto significa que sea cual fuere la cantidad de bytes que contenga un archivo, estos podran clasificarse entre, no mas de, 256 variantes. Por supuesto, algunas mas frecuentes que otras.
+Entonces, para contar cuantas veces aparece cada byte (cada variante) dentro del archivo utilizaremos una tabla (array) de 256 filas. El indice i del array representara la i-esima variante.
